@@ -1,0 +1,82 @@
+ 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+margin: 50px;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+img{
+    height: 1536px;
+    background-image: url("../images/portfolioPic.jpg");
+}
+
+.sidebar {
+    margin: 0px;
+    padding: 0;
+    width: 100px;
+    background-color: #f1f1f1;
+    position: fixed;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 100px;
+    padding: 1px 16px;
+    height: 80vh;
+  }
+
+  .vl {
+    border-left: thin solid black ;
+  }
+
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0px;}
+
+    hr {
+        display:none;
+      }
+      div.about {margin-left: 0px;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  .clip-polygon {
+    clip-path: polygon(49% 100%, 100% 90%, 100% 0, 0 0, 0 90%);}
