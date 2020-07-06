@@ -3,23 +3,33 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-
+   
 }
 
 body{
-margin: 50px;
+    margin: 100px;
     align-items: center;
     text-align: center;
+    background-image: url("../images/background.jpeg");
+    background-color: #cccccc;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 
 }
 
 
 img{
-    height: 1536px;
+     width: auto;
+    height: 500px;
     background-image: url("../images/portfolioPic.jpg");
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+   
 }
 
 .sidebar {
+  float: left;
     margin: 0px;
     padding: 0;
     width: 100px;
@@ -31,7 +41,7 @@ img{
   .sidebar a {
     display: block;
     color: black;
-    padding: 16px;
+    padding: 10px;
     text-decoration: none;
   }
    
@@ -46,13 +56,70 @@ img{
   }
   
   div.content {
+   
     margin-left: 100px;
     padding: 1px 16px;
-    height: 80vh;
   }
 
+  .card-title{
+    font-family: 'Patua One', cursive,sans-serif;
+    font-size: 2.5rem;
+  }
+  #jobTitle{
+    font-family: 'Patua One', cursive,sans-serif;
+    font-size: 18px;
+    color: red;
+
+  }
+  .socialSites{
+    font-size: 20px;
+  }
+
+  .downloadCV{
+    float: left;
+  }
+
+
+  .contactMe{
+    float: right;
+  }
+
+
+
   .vl {
+    float: middle;
     border-left: thin solid black ;
+  }
+
+  #aboutMeTitle,#resumeTitle{
+    color: red;
+    text-align: left;
+    font-family: 'Patua One', cursive,sans-serif;
+    font-size: 2rem;
+
+  }
+
+  #aboutMeParagraph{
+    float: left;
+    text-align: left;
+    font-family: 'Abel', cursive,sans-serif;
+    font-size: 1.5rem;
+
+  }
+
+  .addressDivAboutMe{
+    float: right;
+  }
+
+  #aboutme,#resume,#works,#contact {
+    margin-left: 100px;
+    padding: 1px 16px;
+  }
+
+  
+
+  .boxDesign{
+    background: pink;
   }
 
   
@@ -61,19 +128,27 @@ img{
       width: 100%;
       height: auto;
       position: relative;
+      bottom: 20px;
     }
     .sidebar a {float: left;}
-    div.content {margin-left: 0px;}
+    div.content {margin-left: 0px;float: none; width: auto;}
 
     hr {
         display:none;
       }
-      div.about {margin-left: 0px;}
+      #aboutme,#resume, #works, #contact {
+        margin-left: 0px;
+      }
+     
   }
   
   @media screen and (max-width: 400px) {
     .sidebar a {
       text-align: center;
+      float: none;
+    }
+    #aboutme {
+      margin-left: 0px;
       float: none;
     }
   }

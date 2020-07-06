@@ -8,60 +8,289 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Pradeep Marasini Portfolio</title>
+
+    <!-- Link for google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./Assets/css/backgroundStyle.css">
     <link rel="stylesheet" href="./Assets/css/style.css">
 </head>
 
 <body>
-    <div class="sidebar text-center">
-        <a class="" href="#"><i class="fa fa-user p-2  "></i><br />ABOUT</a>
-        <hr />
-        <a href="#"><i class="fa fa-file-text p-2  "></i><br />RESUME</a>
-        <hr />
-        <a href="#"><i class="fa fa-paint-brush p-2  "></i><br />WORKS</a>
-        <hr />
-        <a href="#"> <i class="fa fa-phone p-2  "></i><br />CONTACT</a>
-    </div>
+    <!-- <div class="container"> -->
 
-    <div class="content card text-center ">
-        <img class="clip-polygon">
-        <h3>Pradeep Marasini</h3>
-        <p class="card-text">Full Stack Web Developer</p>
+    <!-- start of navbar/sidebar -->
+    <nav class="sidebar text-center">
+        <a href="#aboutme"><i class="fa fa-user p-2  "></i><br />ABOUT</a>
         <hr />
+        <a href="#resume"><i class="fa fa-file-text p-2  "></i><br />RESUME</a>
+        <hr />
+        <a href="#works"><i class="fa fa-paint-brush p-2  "></i><br />WORKS</a>
+        <hr />
+        <a href="#contact"> <i class="fa fa-phone p-2  "></i><br />CONTACT</a>
+    </nav>
+    <!-- end of navbar -->
 
-        <div>
-            <button class="btn btn-sm"><i class="fa fa-linkedin" aria-hidden="true"></i></button>
-            <button class="btn btn-sm"><i class="fa fa-github" aria-hidden="true"></i></button>
-            <button class="btn btn-sm"><i class="fa fa-facebook" aria-hidden="true"></i></button>
+
+    <!-- start of content -->
+    <div class="content card text-center mb-4">
+        <img class="clip-polygon ">
+        <div class="card-body">
+            <h3 class="card-title">Pradeep Marasini</h3>
+            <p class="card-text" id="jobTitle">Full Stack Web Developer</p>
+            <div class="socialSites">
+                <a href="https://www.linkedin.com/in/pradeep-marasini-34b322b4/" class="card-link" target="_blank"><i
+                        class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://github.com/marasinipradeep/" class="card-link" target="_blank"><i class="fa fa-github"
+                        aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/pmarasini1" class="card-link" target="_blank"><i
+                        class="fa fa-facebook" aria-hidden="true"></i></a>
+            </div>
+            <hr />
+            <div>
+                <a href="#" class="card-link downloadCV">DOWNLOAD CV <i class="fa fa-download"
+                        aria-hidden="true"></i></a>
+                <a class="vl"></a>
+                <a href="#contact" class="card-link  contactMe"> CONTACT ME <i class="fa fa-address-book"
+                        aria-hidden="true"></i></a>
+            </div>
         </div>
-        <hr />
-        <div>
-            <button class="btn btn-sm ">DOWNLOAD CV</button>
-            <button class="btn btn-sm vl"> CONTACT ME</button>
-        </div>
     </div>
-    
-    <div class="about card text-center">
-        <p class="mt-4">About Me</p>
+    <!-- end of content -->
+
+    <!-- start about me -->
+    <div class="about card text-center mb-4" id="aboutme">
+        <p class="card-header" id="aboutMeTitle">About Me</p>
         <hr />
 
-    </div>
+        <div class="row card-body">
+            <p class="col-md-7 card-text" id="aboutMeParagraph">Full Stack Developer with a background in electronics and communication engineering utilising experience in embedded system and agile methodology. Awarded as “Best IT supporter” and is a strong communicator to work effectively with end-users and the team.Recently, earned a certificate in full stack development from University of Adelaide, with newly developed skills in HTML,CSS, Javascript, Node, Express, MySQL, MongoDB and responsive web design. Highly iInterested and passionate to learn and implement emerging web technologies . Can work under a pressure environment and fascinated to implement innovative ideas to real world application so that people can have better life.</p>
 
-
-    <!--
-            <div class="col-md-5 details card">
-            <div class="row"><p class="mt-4">About Me</p></div><hr/>
-            <div class="row">
-                <div class="col-6" id="introduction">
+            <div class="vl col-md-1"></div>
+            <div class="col-md-4 ">
+                <div class="row ">
+                    <div class="col-5 boxDesign ">Residence</div>
+                    <div class="col-7 ">Australia</div>
                 </div>
+                <hr/>
+                
+                <div class="row ">
+                    <div class="col-5 boxDesign">Freelance</div>
+                    <div class="col-7">Available</div>
+                   
+                </div>
+                <hr/>
+                
+                <div class="row ">
+                    <div class="col-5 boxDesign">Address</div>
+                    <div class="col-7">South Australia, Adelaide</div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- start resume -->
+    <div class=" card text-center " id="resume">
+        <p class="mt-4" id="resumeTitle">Resume</p>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">EXPERIENCE</th>
+                <th scope="col">EDUCATION</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2013-2016<br/>Drose technologies</td>
+                <td>2008-2013<br/>electronics and communication engineering</td>
+              </tr>
+              <tr>
+                <td>2013-2016<br/>fsdfs</td>
+                <td>2008-2013<br/>uni Adelaide</td>
+              </tr>
+            </tbody>
+            
+          </table>
+
+          <p class="mt-4" id="resumeTitle">My skills</p>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">DESIGN</th>
+                <th scope="col">LANGUAGES</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Web Design<br/><div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div></td>
+                <td>English<br/><div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar"
+                    aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                      40%
+                    </div>
+                  </div></td>
+              </tr>
+              <tr>
+                <td>PhotoShop<br/><div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div></td>
+                <td>Nepali<br/><div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar"
+                    aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                      40%
+                    </div>
+                  </div></td>
+              </tr>
+            </tbody>
+            
+          </table>
+
+
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">CODING</th>
+                <th scope="col">KNOWLEDGE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Javascript<br/><div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div></td>
+                <td>Website Hosting</td>
+              </tr>
+              <tr>
+                <td>PhotoShop<br/><div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div></td>
+                <td>create logo design</td>
+              </tr>
+            </tbody>
+            
+          </table>
+
+
+        </div>
+    </div>
+    <br />
+    <!-- end resume -->
+
+    <!-- start works -->
+    <div class="container card text-center" id="works">
+        <p class="mt-4" id="resumeTitle">Works</p>
+        <hr />
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6" tabindex="0">
+              <img class="card-img-top resetimages" src="./Assets/images/BLB.jpeg"
+                alt="Branchless banking is an alternative solution where physical branch is not possible">
+              <div class="card-body">
+                <p class="card-text">BLB (Branchless Banking)</p>
+              </div>
+            </div>
+      
+            <div class="col-lg-3 col-md-6" tabindex="0">
+              <img class="card-img-top resetimages" src="./Assets/images/gl11-header.jpg"
+                alt="Finger scanning system introduced for paying Earthquake victim">
+              <div class="card-body">
+                <p class="card-text">Earthquake relief payment system</p>
+              </div>
+            </div>
+          
+      
+            <div class="col-lg-3 col-md-6" tabindex="0">
+              <img class="card-img-top resetimages" src="./Assets/images/anjSuperClean.png"
+                alt="We do the spottless cleaning, south Australian based cleaning company ">
+              <div class="card-body">
+                <p class="card-text">ANJ SuperClean Company</p>
+              </div>
+            </div>
+      
+            <div class="col-lg-3 col-md-6" tabindex="0">
+              <img class="card-img-top resetimages" src="./Assets/images/networking.jpg"
+                alt="Me trying to fix server side hardware problem">
+              <div class="card-body">
+                <p class="card-text">Troubleshooting server</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </div>
+    <br />
+    <!-- end works -->
+
+
+
+    <!-- start contact -->
+    <div class=" card text-center" id="contact">
+        <p id="resumeTitle">Contacts</p>
+        <hr />
+        <div class="container">
+            <div class="row ">
+                <div class="col-5 boxDesign ">Residence</div>
+                <div class="col-7 ">Australia</div>
+            </div>
+            <hr/>
+            
+            <div class="row ">
+                <div class="col-5 boxDesign">Freelance</div>
+                <div class="col-7">Available</div>
                
             </div>
-        </div>
-                
-
+            <hr/>
+            
+            <div class="row ">
+                <div class="col-5 boxDesign">Address</div>
+                <div class="col-7">South Australia, Adelaide</div>
             </div>
-            <div class="col-md-1"></div>
 
-        </div> -->
+            <div class="row">
+                <h2 class="contentheadingsize">Contact Form:</h2>
+                <hr />
+              </div>
+              <form>
+                <div class="form-group">
+                  <label for="yourName">First Name:</label>
+                  <input type="text" class="form-control" id="yourName" placeholder="Your Name..">
+                </div>
+          
+                <div class="form-group">
+                  <label for="yourlastName">Last Name:</label>
+                  <input type="text" class="form-control" id="yourlastName" placeholder="Your last name..">
+                </div>
+          
+                <div class="form-group">
+                  <label for="yourSubject">Subject</label>
+                  <textarea class="form-control" id="yourSubject" rows="3" placeholder="Write something.."></textarea>
+                </div>
+          
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+
+        </div>
+    </div>
+    <!-- end contact -->
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <!-- </div> -->
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
