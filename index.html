@@ -13,16 +13,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./Assets/css/backgroundStyle.css">
+    <link rel="stylesheet" href="./Assets/css/takeToTopButton.css">
+    <link rel="stylesheet" href="./Assets/css/sideBarMenuBar.css">
+
     <link rel="stylesheet" href="./Assets/css/style.css">
 </head>
 
 <body>
     <!-- <div class="container"> -->
+      <button class="scrollToTop">Scroll Top</button>
 
     <!-- start of navbar/sidebar -->
     <nav class="sidebar text-center">
-        <a href="#aboutme"><i class="fa fa-user p-2  "></i><br />ABOUT</a>
+        <a href="#aboutme" id="navAboutMe"><i class="fa fa-user p-2  "></i><br />ABOUT</a>
         <hr />
         <a href="#resume"><i class="fa fa-file-text p-2  "></i><br />RESUME</a>
         <hr />
@@ -91,6 +94,7 @@
 
         </div>
     </div>
+
     <!-- start resume -->
     <div class=" card text-center " id="resume">
         <p class="mt-4" id="resumeTitle">Resume</p>
@@ -185,37 +189,37 @@
         <p class="mt-4" id="resumeTitle">Works</p>
         <hr />
 
-        <div class="row">
+        <div class="row m-10">
+
+          <div class="col-lg-3 col-md-6" tabindex="0">
+            <img class="card-img-top resetimages" src="./Assets/images/MusicQuizDemo.gif"
+              alt="MUsic-App">
+            <div class="card-body">
+              <a href="https://marasinipradeep.github.io/music-app/" class="card-text" target="_blank">Music-App</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" tabindex="0">
+            <img class="card-img-top resetimages" src="./Assets/images/Weather_Dashboard.gif"
+              alt="We do the spottless cleaning, south Australian based cleaning company ">
+            <div class="card-body">
+              <a href="https://marasinipradeep.github.io/weather_dashboard/" class="card-text" target="_blank">Weather-Dashboard</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" tabindex="0">
+            <img class="card-img-top resetimages" src="./Assets/images/final_day_planner_demo.gif"
+              alt="plan your day with day planner">
+            <div class="card-body">
+              <a href="https://marasinipradeep.github.io/day-planner/" class="card-text">Day-Planner</a>
+            </div>
+          </div>
+
             <div class="col-lg-3 col-md-6" tabindex="0">
               <img class="card-img-top resetimages" src="./Assets/images/BLB.jpeg"
                 alt="Branchless banking is an alternative solution where physical branch is not possible">
               <div class="card-body">
-                <p class="card-text">BLB (Branchless Banking)</p>
-              </div>
-            </div>
-      
-            <div class="col-lg-3 col-md-6" tabindex="0">
-              <img class="card-img-top resetimages" src="./Assets/images/gl11-header.jpg"
-                alt="Finger scanning system introduced for paying Earthquake victim">
-              <div class="card-body">
-                <p class="card-text">Earthquake relief payment system</p>
-              </div>
-            </div>
-          
-      
-            <div class="col-lg-3 col-md-6" tabindex="0">
-              <img class="card-img-top resetimages" src="./Assets/images/anjSuperClean.png"
-                alt="We do the spottless cleaning, south Australian based cleaning company ">
-              <div class="card-body">
-                <p class="card-text">ANJ SuperClean Company</p>
-              </div>
-            </div>
-      
-            <div class="col-lg-3 col-md-6" tabindex="0">
-              <img class="card-img-top resetimages" src="./Assets/images/networking.jpg"
-                alt="Me trying to fix server side hardware problem">
-              <div class="card-body">
-                <p class="card-text">Troubleshooting server</p>
+                <a href="https://citytech.global/" class="card-text">BLB (Branchless Banking)</a>
               </div>
             </div>
           </div>
@@ -228,30 +232,29 @@
 
 
     <!-- start contact -->
-    <div class=" card text-center" id="contact">
+    <div class=" card text-center " id="contact">
         <p id="resumeTitle">Contacts</p>
         <hr />
-        <div class="container">
-            <div class="row ">
-                <div class="col-5 boxDesign ">Residence</div>
-                <div class="col-7 ">Australia</div>
+        <div class="panel panel-primary">
+            <div class="row">
+                <div class="col-5 boxDesign ">Address</div>
+                <di class="col-7 ">Adelaide, South Australia, Australia</di>
             </div>
             <hr/>
             
             <div class="row ">
-                <div class="col-5 boxDesign">Freelance</div>
-                <div class="col-7">Available</div>
-               
+                <div class="col-5 boxDesign">Contact</div>
+                <div class="col-7">0420719901</div>
             </div>
             <hr/>
             
-            <div class="row ">
-                <div class="col-5 boxDesign">Address</div>
-                <div class="col-7">South Australia, Adelaide</div>
+            <div class="row">
+                <div class="col-5 boxDesign">Email</div>
+                <div class="col-7">marasinipradeep@gmail.com</div>
             </div>
 
             <div class="row">
-                <h2 class="contentheadingsize">Contact Form:</h2>
+                <h5 class="contentheadingsize">Form:</h5>
                 <hr />
               </div>
               <form>
@@ -294,6 +297,7 @@
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./Assets/js/takeToTopButton.js"></script>
     <script src="./Assets/js/about.js"></script>
 </body>
 

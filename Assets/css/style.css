@@ -28,32 +28,6 @@ img{
    
 }
 
-.sidebar {
-  float: left;
-    margin: 0px;
-    padding: 0;
-    width: 100px;
-    background-color: #f1f1f1;
-    position: fixed;
-    overflow: auto;
-  }
-  
-  .sidebar a {
-    display: block;
-    color: black;
-    padding: 10px;
-    text-decoration: none;
-  }
-   
-  .sidebar a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
-  
-  .sidebar a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-  }
   
   div.content {
    
@@ -122,6 +96,8 @@ img{
     background: pink;
   }
 
+  .resetimages{max-height: 30vh;max-width: 100%;}
+
   
   @media screen and (max-width: 700px) {
     .sidebar {
@@ -138,6 +114,10 @@ img{
       }
       #aboutme,#resume, #works, #contact {
         margin-left: 0px;
+      }
+
+      .scrollToTop{
+        left: 10px;
       }
      
   }

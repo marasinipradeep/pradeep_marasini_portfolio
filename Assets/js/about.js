@@ -8,3 +8,4 @@
 
 
     $("#about").on("click",onAboutClicked)
+
