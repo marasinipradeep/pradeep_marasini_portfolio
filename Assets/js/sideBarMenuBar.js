@@ -1,7 +1,28 @@
-<a href="#contact"> <i class="fa fa-phone p-2  "></i><br />CONTACT</a>
 
-function sideBar(){
+$(document).ready(function(){
 
-    var newlink =$("<a>")
-    newlink.attr("hre")
-}
+    $("#navAboutMe").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#aboutme").offset().top},
+            'slow');
+    });
+
+    $("#navResume").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#resume").offset().top},
+            "slow");
+    });
+
+    $("#navWorks").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#works").offset().top},
+            'slow');
+    });
+
+    $("#navContact").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#contact").offset().top},
+            'slow');
+    });
+
+});

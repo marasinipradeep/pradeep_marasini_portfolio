@@ -25,3 +25,10 @@
       background-color: #555;
       color: white;
     }
+/*  
+    #aboutme::before{
+      content: "\f007";
+      font-family: FontAwesome;
+      display: block;
+
+    }  */
