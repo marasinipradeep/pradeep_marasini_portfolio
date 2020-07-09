@@ -90,7 +90,13 @@ img{
     padding: 1px 16px;
   }
 
-  
+  td input#disabledInput{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 50px;
+
+}
 
   .boxDesign{
     background: pink;
@@ -121,6 +127,14 @@ img{
       .scrollToTop{
         left: 10px;
       }
+
+      td input#disabledInput{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+     
      
   }
   
@@ -133,7 +147,12 @@ img{
       margin-left: 0px;
       float: none;
     }
+    td input#disabledInput{
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
   }
+}
 
   .clip-polygon {
     clip-path: polygon(49% 100%, 100% 90%, 100% 0, 0 0, 0 90%);}

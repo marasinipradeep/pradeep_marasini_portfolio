@@ -17,23 +17,43 @@
   <link rel="stylesheet" href="./Assets/css/sideBarMenuBar.css">
 
   <link rel="stylesheet" href="./Assets/css/style.css">
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+  
 </head>
 
-<body>
-  <button class="scrollToTop">Scroll Top</button>
+<body data-spy="scroll" data-target=".navbar" data-offset="0">
+  
 
   <!-- start of navbar/sidebar -->
-  <nav class="sidebar text-center">
-    <a href="#" id="navAboutMe"><i class="fa fa-user p-2  "></i><br />ABOUT</a>
+  <!-- <nav class="navbar sidebar text-center">
+    <a href="#aboutme" id="navAboutMe" ><i class="fa fa-user p-2  "></i><br />ABOUT</a>
     <hr />
-    <a href="#" id="navResume"><i class="fa fa-file-text p-2  "></i><br />RESUME</a>
+    <a href="#resume" id="navResume" ><i class="fa fa-file-text p-2  "></i><br />RESUME</a>
     <hr />
-    <a href="#" id="navWorks"><i class="fa fa-paint-brush p-2  "></i><br />WORKS</a>
+    <a href="#works" id="navWorks"><i class="fa fa-paint-brush p-2  "></i><br />WORKS</a>
     <hr />
     <a href="#" id="navContact"> <i class="fa fa-phone p-2  "></i><br />CONTACT</a>
-  </nav>
-  <!-- end of navbar-->
+  </nav> -->
 
+  <nav class="navbar navbar-inverse  navbar-fixed-top navbar-expand-sm ">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#aboutme" ><i class="fa fa-user p-2  "></i><br />ABOUT</a></li>
+          <li><a href="#resume" ><i class="fa fa-file-text p-2  "></i><br />RESUME</a></li>
+          <li><a href="#works" ><i class="fa fa-paint-brush p-2  "></i><br />WORKS</a></li>
+          <li><a href="#contact" ><i class="fa fa-phone p-2  "></i><br />CONTACT</a></li>
+         
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+  <!-- end of navbar-->
+  <button class="scrollToTop">Scroll Top</button>
 
   <!-- start of content -->
   <section class="content card text-center mb-4">
@@ -53,7 +73,7 @@
       <div>
         <a href="https://drive.google.com/file/d/1h5cBJCa0HCpF4P-RCbQJ7g82K20lyRVU/view?usp=sharing" class="card-link downloadCV" target="_blank">DOWNLOAD CV <i class="fa fa-download" aria-hidden="true"></i></a>
         <a class="vl"></a>
-        <a href="#contact" class="card-link  contactMe"> CONTACT ME <i class="fa fa-address-book"
+        <a href="#" class="card-link  contactMe" id="contentContactMe"> CONTACT ME <i class="fa fa-address-book"
             aria-hidden="true"></i></a>
       </div>
     </div>
@@ -109,10 +129,10 @@
               </thead>
               <tbody>
                 <tr>
-                  <td><br />2016-2020<br />Free Lancer</td>
+                  <td ><input class="text-center form-control" id="disabledInput" type="text" placeholder="2017-2020" disabled >Free Lancer<br/>Monitored, hosted and designed technical aspects of the different websit for several projects.</td>
                 </tr>
                 <tr>
-                  <td>2013-2016<br />Junior Software Engineer<br />Drose Technologies Pvt Ltd</td>
+                  <td><input class="text-center form-control" id="disabledInput" type="text" placeholder="2013-2016" disabled >Junior Software Engineer<br />Drose Technologies Pvt Ltd<br/>Collaborate with creative and development teams on the execution of ideas.</td>
                 </tr>
               </tbody>
             </table>
@@ -129,10 +149,10 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>2020<br />Full Stack Web Developer <br />University Of Adelaide</td>
+                  <td><input class="text-center form-control" id="disabledInput" type="text" placeholder="2020" disabled >Full Stack Web Developer <br />University Of Adelaide<br/>A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handel- bars.js & ReactJS.</td>
                 </tr>
                 <tr>
-                  <td>2008-2013<br />Electronics and Communication Engineering<br />Khwopa Engineering College</td>
+                  <td><input class="text-center form-control" id="disabledInput" type="text" placeholder="2008-2013" disabled >Electronics and Communication Engineering<br />Khwopa Engineering College<br/>4 years course dealing with theory and practical implementation of applications, principles and algorithms developed within many related fields, for example solid-state physics, radio engi- neering, telecommunications, control systems, signal processing, systems engineering, comput- er engineering, instrumentation engineering, electric power control, robotics, and many others.</td>
                 </tr>
               </tbody>
             </table>
@@ -226,7 +246,7 @@
 
   <!-- start works -->
   <section class="card text-center" id="works">
-    <p class="card-header bg-primary mt-4" id="resumeTitle">Works</p>
+    <p class="card-header bg-primary mt-4" id="resumeTitle">Recent Works</p>
     <hr />
 
     <div class="row m-10 card-body">
@@ -329,6 +349,8 @@
   </div>
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src="./Assets/js/takeToTopButton.js"></script>
   <script src="./Assets/js/sideBarMenuBar.js"></script>
 </body>
