@@ -1,158 +1,51 @@
  
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-   
+*{padding: 0px;margin: 0px;box-sizing: border-box;font-size: 2rem;}
+body{align-items: center;text-align: center;background-image: url("../images/background.jpeg");background-color: #cccccc;background-position: center; /* Center the image */background-repeat: no-repeat; /* Do not repeat the image */background-size: cover; /* Resize the background image to cover the entire container */}
+img{width: auto;height: 500px;background-image: url("../images/portfolioPic.jpg");background-size: cover; /* Resize the background image to cover the entire container */}
+.clip-polygon {clip-path: polygon(49% 100%, 100% 90%, 100% 0, 0 0, 0 90%);}
+.scrollToTop{width:70px; height:70px;padding:10px; text-align:center; background: whiteSmoke;font-weight: bold;color: #444;text-decoration: none;position:fixed;bottom: 100px;left:20px;display:none;background: url('') no-repeat 0px 20px;border-radius: 50px;}
+.scrollToTop:hover{text-decoration:none;}
+section.content {margin-left: 100px;margin-right: 100px;}
+.card-title{font-family: 'Patua One', cursive,sans-serif;font-size: 2.5rem;}
+#jobTitle{font-family: 'Patua One', cursive,sans-serif;font-size: 18px;color: red;}
+.socialSites{font-size: 20px;}
+.downloadCV{float: left;}
+.contactMe{float: right;}
+.vl {float: middle;border-left: thin solid black ;}
+#pageTitle{color: red;text-align: left;font-family: 'Patua One', cursive,sans-serif;}
+#aboutMeParagraph{float: left;text-align: left;font-family: 'Abel', cursive,sans-serif;font-size: 2.5rem;}
+.addressDivAboutMe{float: right;}
+#aboutme,#resume,#works,#contact {margin-left: 100px;margin-right: 100px;}
+td input#disabledInput{margin-left: auto;margin-right: auto;width: 30%;border-radius: 50px;}
+.boxDesign{color: red; text-align: center;}
+p{text-align: justify;}
+.resetimages{max-height: 30vh;max-width: 100%;}
+
+.navbar-inverse {margin-left: 100px;margin-right: 100px;}
+
+
+
+
+@media screen and (max-width: 640px) {
+  section.content {margin-top: 150px}
+ 
 }
 
-body{
-    margin: 100px;
-    align-items: center;
-    text-align: center;
-    background-image: url("../images/background.jpeg");
-    background-color: #cccccc;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-
-}
 
 
-img{
-     width: auto;
-    height: 500px;
-    background-image: url("../images/portfolioPic.jpg");
-    background-size: cover; /* Resize the background image to cover the entire container */
-
-   
-}
-
-  
-  section.content {
-   
-    margin-left: 100px;
-    padding: 1px 16px;
-  }
-
-  .card-title{
-    font-family: 'Patua One', cursive,sans-serif;
-    font-size: 2.5rem;
-  }
-  #jobTitle{
-    font-family: 'Patua One', cursive,sans-serif;
-    font-size: 18px;
-    color: red;
-
-  }
-  .socialSites{
-    font-size: 20px;
-  }
-
-  .downloadCV{
-    float: left;
-  }
-
-
-  .contactMe{
-    float: right;
-  }
-
-
-
-  .vl {
-    float: middle;
-    border-left: thin solid black ;
-  }
-
-  #aboutMeTitle,#resumeTitle{
-    color: red;
-    text-align: left;
-    font-family: 'Patua One', cursive,sans-serif;
-    font-size: 2rem;
-
-  }
-
-  #aboutMeParagraph{
-    float: left;
-    text-align: left;
-    font-family: 'Abel', cursive,sans-serif;
-    font-size: 1.5rem;
-
-  }
-
-  .addressDivAboutMe{
-    float: right;
-  }
-
-  #aboutme,#resume,#works,#contact {
-    margin-left: 100px;
-    padding: 1px 16px;
-  }
-
-  td input#disabledInput{
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    border-radius: 50px;
-
-}
-
-  .boxDesign{
-    background: pink;
-  }
-
-  .resetimages{max-height: 30vh;max-width: 100%;}
-
-  
+/*   
   @media screen and (max-width: 700px) {
-   
-  
-    .sidebar {
-      width: 100%;
-      height: auto;
-      position: relative;
-      bottom: 20px;
+    hr {display:none;}
+      #aboutme,#resume, #works, #contact {margin-left: 0px;}
+      .scrollToTop{left: 10px;}
+      td input#disabledInput{margin-left: auto;margin-right: auto;width: 80%;
     }
-    .sidebar a {float: left;}
-    section.content {margin-left: 0px;float: none; width: auto;}
-
-    hr {
-        display:none;
-      }
-      #aboutme,#resume, #works, #contact {
-        margin-left: 0px;
-      }
-
-      .scrollToTop{
-        left: 10px;
-      }
-
-      td input#disabledInput{
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-    }
-
-     
-     
   }
   
   @media screen and (max-width: 400px) {
-    .sidebar a {
-      text-align: center;
-      float: none;
-    }
-    #aboutme {
-      margin-left: 0px;
-      float: none;
-    }
-    td input#disabledInput{
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;
+    #aboutme {margin-left: 0px;float: none;}
+    td input#disabledInput{margin-left: auto;margin-right: auto;width: 100%;
   }
-}
+} */
 
-  .clip-polygon {
-    clip-path: polygon(49% 100%, 100% 90%, 100% 0, 0 0, 0 90%);}
+    
