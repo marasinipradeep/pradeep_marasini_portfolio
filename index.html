@@ -18,7 +18,8 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="0">
 
   <!-- Start of navbar -->
-  <nav class="navbar navbar-inverse  navbar-fixed-top navbar-expand-sm ">
+  <!-- <nav class="navbar navbar-inverse  navbar-fixed-top navbar-expand-sm ">
+    
     <div class="container-fluid">
       <div class="" id="myNavbar">
         <ul class="nav navbar-nav">
@@ -30,6 +31,30 @@
       </div>
     </div>
     </div>
+  </nav> -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary navbar-static-top ">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav m-10  mt-6 mt-lg-0 ">
+        <li class="nav-item">
+          <a href="#aboutme"><i class="fa fa-user p-2  "></i>ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a href="#resume"><i class="fa fa-file-text p-2  "></i>RESUME</a>
+        </li>
+        <li class="nav-item">
+          <a href="#works"><i class="fa fa-paint-brush p-2  "></i>WORKS</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact"><i class="fa fa-phone p-2  "></i>CONTACT</a>
+        </li>
+      </ul>
+
+    </div>
   </nav>
   <!-- end of navbar-->
   <!-- Floating button to scroll top of page -->
@@ -37,8 +62,8 @@
 
   <!-- start of content -->
   <section class="content card text-center mb-4">
-    <img class="clip-polygon " >
-    <div class="card-body" >
+    <img class="clip-polygon ">
+    <div class="card-body">
       <h1 class="card-title">Pradeep Marasini</h1>
       <h2 class="card-text" id="jobTitle">Full Stack Web Developer</h2>
       <div class="socialSites">
@@ -50,7 +75,7 @@
             aria-hidden="true"></i></a>
       </div>
       <hr />
-      <div >
+      <div>
         <a href="https://drive.google.com/file/d/1h5cBJCa0HCpF4P-RCbQJ7g82K20lyRVU/view?usp=sharing"
           class="card-link downloadCV" target="_blank">DOWNLOAD CV <i class="fa fa-download" aria-hidden="true"></i></a>
         <a class="vl"></a>
@@ -65,7 +90,7 @@
   <section class="card text-center mb-4" id="aboutme" style="background: #33FFBD">
     <h1 class="card-header bg-primary" id="pageTitle">About Me</h1>
     <hr />
-    <div class="container" >
+    <div class="container-fluid">
       <article class="row card-body">
         <p class="col-lg-7 card-text" id="aboutMeParagraph">Full Stack Developer with a background in electronics and
           communication engineering utilising experience in banking / payment application, embedded system and agile
@@ -100,7 +125,7 @@
     <h1 class="card-header bg-primary" id="pageTitle">Resume</h1>
     <!-- Start of article which has experience and education -->
     <article class=" card-body">
-      <div class="container">
+      <div class="container-fluid">
         <!-- Start of row for experience and education -->
         <div class="row">
           <!-- table for experience -->
@@ -115,6 +140,7 @@
               </thead>
               <tbody>
                 <tr>
+
                   <td><input class="text-center form-control" id="disabledInput" type="text" placeholder="2017-2020"
                       disabled>
                     <h3 class="boxDesign">Free Lancer</h3>
@@ -162,7 +188,8 @@
                     <h3 class="boxDesign">Electronics and Communication Engineering</h3>
                     <h4 class="boxDesign">Khwopa Engineering College</h4>
                     <p>4 years course dealing with theory and practical implementation of applications, principles and
-                      algorithms developed within many related fields, for example solid-state physics, radio engi- neering,
+                      algorithms developed within many related fields, for example solid-state physics, radio engi-
+                      neering,
                       telecommunications, control systems, signal processing, systems engineering, computer engineering,
                       instrumentation engineering, electric power control, robotics, and many others.</p>
                   </td>
@@ -181,7 +208,7 @@
 
 
     <article class=" card-body">
-      <div class="container">
+      <div class="container-fluid">
         <!-- Start of row for design and language -->
         <div class="row">
           <!-- table for design -->
@@ -277,34 +304,34 @@
       </div>
 
       <div class="col-md-6 card-text" tabindex="0">
-          <a href="https://github.com/marasinipradeep/weather_dashboard" class="card-text" target="_blank">
-            <h2>Weather-Dashboard</h2>
-          </a>
+        <a href="https://github.com/marasinipradeep/weather_dashboard" class="card-text" target="_blank">
+          <h2>Weather-Dashboard</h2>
+        </a>
         <img class="card-img-top resetimages" src="./Assets/images/Weather_Dashboard.gif"
           alt="We do the spottless cleaning, south Australian based cleaning company ">
-        
+
       </div>
 
       <div class="col-md-6 card-text" tabindex="0">
-        
-          <a href="https://github.com/marasinipradeep/day-planner" class="card-text" target="_blank">
-            <h2>Day-Planner</h2>
-          </a>
-        
+
+        <a href="https://github.com/marasinipradeep/day-planner" class="card-text" target="_blank">
+          <h2>Day-Planner</h2>
+        </a>
+
         <img class="card-img-top resetimages" src="./Assets/images/final_day_planner_demo.gif"
           alt="plan your day with day planner">
-        
+
       </div>
 
       <div class="col-md-6 card-text" tabindex="0">
-        
-          <a href="https://citytech.global/" class="card-text" target="_blank">
-            <h2>BLB (Branchless Banking)</h2>
-          </a>
-        
+
+        <a href="https://citytech.global/" class="card-text" target="_blank">
+          <h2>BLB (Branchless Banking)</h2>
+        </a>
+
         <img class="card-img-top resetimages" src="./Assets/images/BLB.jpeg"
           alt="Branchless banking is an alternative solution where physical branch is not possible">
-      
+
       </div>
     </div>
 
@@ -320,14 +347,14 @@
     <h1 class="card-header bg-primary" id="pageTitle">Contacts</h1>
     <hr />
     <div class="card-body">
-      <div class="container mb-4">
+      <div class="container-fluid mb-4">
         <div class="row card-text">
           <h3 class="col-sm-6 boxDesign "><i class="fa fa-address-card-o" aria-hidden="true"></i> Address</h3>
           <p class="col-sm-6 ">Adelaide, South Australia, Australia</p>
         </div>
         <hr />
       </div>
-      <div class="container mb-4">
+      <div class="container-fluid mb-4">
 
         <div class="row card-text">
           <h3 class="col-sm-6 boxDesign"><i class="fa fa-phone" aria-hidden="true"></i> Contact</h3>
@@ -336,7 +363,7 @@
         <hr />
       </div>
 
-      <div class="container mb-4">
+      <div class="container-fluid mb-4">
 
         <div class="row card-text">
           <h3 class="col-sm-6 boxDesign"><i class="fa fa-envelope" aria-hidden="true"></i> Email</h3>

@@ -6,7 +6,12 @@
 body{align-items: center;text-align: center;background-image: url("../images/background.jpeg");background-color: #cccccc;background-position: center; /* Center the image */background-repeat: no-repeat; /* Do not repeat the image */background-size: cover; /* Resize the background image to cover the entire container */}
 
 /* Navbar margins */
-.navbar-inverse {margin-left: 100px;margin-right: 100px;}
+.navbar {margin-left: 100px;margin-right: 100px}
+
+.navbar-nav>li>a{
+  color: white;
+  margin-right: 50px;
+}
 
 /* Profile pic */
 img{width: auto;height: 500px;background-image: url("../images/portfolioPic.jpg");background-size: cover; /* Resize the background image to cover the entire container */}
@@ -15,8 +20,22 @@ img{width: auto;height: 500px;background-image: url("../images/portfolioPic.jpg"
 .clip-polygon {clip-path: polygon(49% 100%, 100% 90%, 100% 0, 0 0, 0 90%);}
 
 /* Scroll to top button properties */
-.scrollToTop{width:70px; height:70px; text-align:center; background: whiteSmoke;font-weight: bold;color: #444;position:fixed;bottom: 100px;left:20px;display:none;background: url("../images/arrow_up.png") no-repeat 0px 20px;border-radius: 50px;}
-.scrollToTop:hover{text-decoration:none;}
+.scrollToTop{
+  display:none;
+  position:fixed;
+  bottom: 20px;
+  left:20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  padding: 15px;
+  background-color: thistle;
+  border-radius: 50px;
+  font-size: 18px;
+ }
+
 
 /* Start of Content */
 section.content {margin-left: 100px;margin-right: 100px;}
@@ -49,8 +68,12 @@ p{text-align: center;}
 
 /* Responsiveness to different screen size */
 @media screen and (max-width: 640px) {
-  section.content {margin-top: 200px}
-  .navbar-inverse,section.content,#aboutme,#resume,#works,#contact {margin-left: 50px;margin-right: 50px;}
-  .scrollToTop{left: 5px;width: 40px; font-size: 14px;}
+  section.content,#aboutme,#resume,#works,#contact {margin-left: 20px;margin-right: 20px;}
+  
+  .vl{display: none;}
+  .contactMe,.downloadCV{float: none;}
+  td input#disabledInput {width: 100%;}
+  .navbar {margin-left: 20px;margin-right: 20px;}
 }
 /* End of page */
+
