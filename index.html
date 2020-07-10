@@ -8,24 +8,16 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Pradeep Marasini Portfolio</title>
-
   <!-- Link for google fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="./Assets/css/takeToTopButton.css">
-  <link rel="stylesheet" href="./Assets/css/sideBarMenuBar.css">
-
   <link rel="stylesheet" href="./Assets/css/style.css">
-
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="0">
 
+  <!-- Start of navbar -->
   <nav class="navbar navbar-inverse  navbar-fixed-top navbar-expand-sm ">
     <div class="container-fluid">
       <div class="" id="myNavbar">
@@ -40,12 +32,13 @@
     </div>
   </nav>
   <!-- end of navbar-->
-  <button class="scrollToTop">Scroll Top</button>
+  <!-- Floating button to scroll top of page -->
+  <button class="scrollToTop">Top</button>
 
   <!-- start of content -->
   <section class="content card text-center mb-4">
-    <img class="clip-polygon ">
-    <div class="card-body">
+    <img class="clip-polygon " >
+    <div class="card-body" >
       <h1 class="card-title">Pradeep Marasini</h1>
       <h2 class="card-text" id="jobTitle">Full Stack Web Developer</h2>
       <div class="socialSites">
@@ -57,7 +50,7 @@
             aria-hidden="true"></i></a>
       </div>
       <hr />
-      <div>
+      <div >
         <a href="https://drive.google.com/file/d/1h5cBJCa0HCpF4P-RCbQJ7g82K20lyRVU/view?usp=sharing"
           class="card-link downloadCV" target="_blank">DOWNLOAD CV <i class="fa fa-download" aria-hidden="true"></i></a>
         <a class="vl"></a>
@@ -69,10 +62,10 @@
   <!-- end of content -->
 
   <!-- start about me -->
-  <section class="card text-center mb-4" id="aboutme">
+  <section class="card text-center mb-4" id="aboutme" style="background: #33FFBD">
     <h1 class="card-header bg-primary" id="pageTitle">About Me</h1>
     <hr />
-    <div class="container">
+    <div class="container" >
       <article class="row card-body">
         <p class="col-lg-7 card-text" id="aboutMeParagraph">Full Stack Developer with a background in electronics and
           communication engineering utilising experience in banking / payment application, embedded system and agile
@@ -103,7 +96,7 @@
   </section>
 
   <!-- start resume -->
-  <section class=" card text-center mb-4" id="resume">
+  <section class=" card text-center mb-4" id="resume" style="background: #33FFBD">
     <h1 class="card-header bg-primary" id="pageTitle">Resume</h1>
     <!-- Start of article which has experience and education -->
     <article class=" card-body">
@@ -115,7 +108,9 @@
             <table class="table table-bordered">
               <thead class="card-text">
                 <tr>
-                  <th><h3><i class="fa fa-briefcase" aria-hidden="true"></i> EXPERIENCE</h3></th>
+                  <th>
+                    <h3><i class="fa fa-briefcase" aria-hidden="true"></i> EXPERIENCE</h3>
+                  </th>
                 </tr>
               </thead>
               <tbody>
@@ -145,7 +140,9 @@
             <table class="table table-bordered">
               <thead class="card-text">
                 <tr>
-                  <th scope="col"><h3><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</h3></th>
+                  <th scope="col">
+                    <h3><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</h3>
+                  </th>
                 </tr>
               </thead>
               <tbody>
@@ -165,8 +162,7 @@
                     <h3 class="boxDesign">Electronics and Communication Engineering</h3>
                     <h4 class="boxDesign">Khwopa Engineering College</h4>
                     <p>4 years course dealing with theory and practical implementation of applications, principles and
-                      algorithms
-                      developed within many related fields, for example solid-state physics, radio engi- neering,
+                      algorithms developed within many related fields, for example solid-state physics, radio engi- neering,
                       telecommunications, control systems, signal processing, systems engineering, computer engineering,
                       instrumentation engineering, electric power control, robotics, and many others.</p>
                   </td>
@@ -193,7 +189,9 @@
             <table class="table table-bordered">
               <thead class="card-text">
                 <tr>
-                  <th><h3><i class="fa fa-television" aria-hidden="true"></i> Design</h3></th>
+                  <th>
+                    <h3><i class="fa fa-television" aria-hidden="true"></i> Design</h3>
+                  </th>
                 </tr>
               </thead>
               <tbody>
@@ -223,7 +221,9 @@
             <table class="table table-bordered">
               <thead class="card-text">
                 <tr>
-                  <th scope="col"><h3><i class="fa fa-flag" aria-hidden="true"></i> Language</h3></th>
+                  <th scope="col">
+                    <h3><i class="fa fa-flag" aria-hidden="true"></i> Language</h3>
+                  </th>
                 </tr>
               </thead>
               <tbody>
@@ -262,42 +262,49 @@
   <!-- end resume -->
 
   <!-- start works -->
-  <section class="card text-center" id="works">
+  <section class="card text-center" id="works" style="background: #33FFBD">
     <h1 class="card-header bg-primary mt-4" id="pageTitle">Recent Works</h1>
     <hr />
 
     <div class="row m-10 card-body">
 
       <div class="col-md-6 card-text" tabindex="0">
+        <a href="https://github.com/marasinipradeep/music-app" class="card-text" target="_blank">
+          <h2>Music-App</h2>
+        </a>
         <img class="card-img-top resetimages" src="./Assets/images/MusicQuizDemo.gif" alt="MUsic-App">
-        <div class="card-body">
-          <a href="https://github.com/marasinipradeep/music-app" class="card-text" target="_blank"><h2>Music-App</h2></a>
-        </div>
+
       </div>
 
       <div class="col-md-6 card-text" tabindex="0">
+          <a href="https://github.com/marasinipradeep/weather_dashboard" class="card-text" target="_blank">
+            <h2>Weather-Dashboard</h2>
+          </a>
         <img class="card-img-top resetimages" src="./Assets/images/Weather_Dashboard.gif"
           alt="We do the spottless cleaning, south Australian based cleaning company ">
-        <div class="card-body">
-          <a href="https://github.com/marasinipradeep/weather_dashboard" class="card-text"
-            target="_blank"><h2>Weather-Dashboard</h2></a>
-        </div>
+        
       </div>
 
       <div class="col-md-6 card-text" tabindex="0">
+        
+          <a href="https://github.com/marasinipradeep/day-planner" class="card-text" target="_blank">
+            <h2>Day-Planner</h2>
+          </a>
+        
         <img class="card-img-top resetimages" src="./Assets/images/final_day_planner_demo.gif"
           alt="plan your day with day planner">
-        <div class="card-body">
-          <a href="https://github.com/marasinipradeep/day-planner" class="card-text" target="_blank"><h2>Day-Planner</h2></a>
-        </div>
+        
       </div>
 
       <div class="col-md-6 card-text" tabindex="0">
+        
+          <a href="https://citytech.global/" class="card-text" target="_blank">
+            <h2>BLB (Branchless Banking)</h2>
+          </a>
+        
         <img class="card-img-top resetimages" src="./Assets/images/BLB.jpeg"
           alt="Branchless banking is an alternative solution where physical branch is not possible">
-        <div class="card-body">
-          <a href="https://citytech.global/" class="card-text" target="_blank"><h2>BLB (Branchless Banking)</h2></a>
-        </div>
+      
       </div>
     </div>
 
@@ -309,7 +316,7 @@
 
 
   <!-- start contact -->
-  <section class=" card text-center mb-4" id="contact">
+  <section class=" card text-center mb-4" id="contact" style="background: #33FFBD">
     <h1 class="card-header bg-primary" id="pageTitle">Contacts</h1>
     <hr />
     <div class="card-body">

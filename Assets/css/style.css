@@ -1,51 +1,56 @@
  
+ /* Initializing padding and border */
 *{padding: 0px;margin: 0px;box-sizing: border-box;font-size: 2rem;}
+
+/* Background image */
 body{align-items: center;text-align: center;background-image: url("../images/background.jpeg");background-color: #cccccc;background-position: center; /* Center the image */background-repeat: no-repeat; /* Do not repeat the image */background-size: cover; /* Resize the background image to cover the entire container */}
+
+/* Navbar margins */
+.navbar-inverse {margin-left: 100px;margin-right: 100px;}
+
+/* Profile pic */
 img{width: auto;height: 500px;background-image: url("../images/portfolioPic.jpg");background-size: cover; /* Resize the background image to cover the entire container */}
+
+/* Using clip-polygon for profile pic */
 .clip-polygon {clip-path: polygon(49% 100%, 100% 90%, 100% 0, 0 0, 0 90%);}
-.scrollToTop{width:70px; height:70px;padding:10px; text-align:center; background: whiteSmoke;font-weight: bold;color: #444;text-decoration: none;position:fixed;bottom: 100px;left:20px;display:none;background: url('') no-repeat 0px 20px;border-radius: 50px;}
+
+/* Scroll to top button properties */
+.scrollToTop{width:70px; height:70px; text-align:center; background: whiteSmoke;font-weight: bold;color: #444;position:fixed;bottom: 100px;left:20px;display:none;background: url("../images/arrow_up.png") no-repeat 0px 20px;border-radius: 50px;}
 .scrollToTop:hover{text-decoration:none;}
+
+/* Start of Content */
 section.content {margin-left: 100px;margin-right: 100px;}
 .card-title{font-family: 'Patua One', cursive,sans-serif;font-size: 2.5rem;}
+
+/* Start of links to social medias and resume */
 #jobTitle{font-family: 'Patua One', cursive,sans-serif;font-size: 18px;color: red;}
 .socialSites{font-size: 20px;}
 .downloadCV{float: left;}
 .contactMe{float: right;}
+
+/* Vertial line on the browser */
 .vl {float: middle;border-left: thin solid black ;}
+
+/* Title to all page */
 #pageTitle{color: red;text-align: left;font-family: 'Patua One', cursive,sans-serif;}
+
+/* Start of about me page */
 #aboutMeParagraph{float: left;text-align: left;font-family: 'Abel', cursive,sans-serif;font-size: 2.5rem;}
 .addressDivAboutMe{float: right;}
 #aboutme,#resume,#works,#contact {margin-left: 100px;margin-right: 100px;}
+
+/* table content disabled */
 td input#disabledInput{margin-left: auto;margin-right: auto;width: 30%;border-radius: 50px;}
 .boxDesign{color: red; text-align: center;}
-p{text-align: justify;}
+p{text-align: center;}
+
+/* Resetting images to fit the screen */
 .resetimages{max-height: 30vh;max-width: 100%;}
 
-.navbar-inverse {margin-left: 100px;margin-right: 100px;}
-
-
-
-
+/* Responsiveness to different screen size */
 @media screen and (max-width: 640px) {
-  section.content {margin-top: 150px}
- 
+  section.content {margin-top: 200px}
+  .navbar-inverse,section.content,#aboutme,#resume,#works,#contact {margin-left: 50px;margin-right: 50px;}
+  .scrollToTop{left: 5px;width: 40px; font-size: 14px;}
 }
-
-
-
-/*   
-  @media screen and (max-width: 700px) {
-    hr {display:none;}
-      #aboutme,#resume, #works, #contact {margin-left: 0px;}
-      .scrollToTop{left: 10px;}
-      td input#disabledInput{margin-left: auto;margin-right: auto;width: 80%;
-    }
-  }
-  
-  @media screen and (max-width: 400px) {
-    #aboutme {margin-left: 0px;float: none;}
-    td input#disabledInput{margin-left: auto;margin-right: auto;width: 100%;
-  }
-} */
-
-    
+/* End of page */
