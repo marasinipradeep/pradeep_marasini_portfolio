@@ -17,7 +17,7 @@ body{align-items: center;text-align: center;background-image: url("../images/bac
 img{width: auto;height: 500px;background-image: url("../images/portfolioPic.jpg");background-size: cover; /* Resize the background image to cover the entire container */}
 
 /* Using clip-polygon for profile pic */
-.clip-polygon {clip-path: polygon(49% 100%, 100% 90%, 100% 0, 0 0, 0 90%);}
+.clip-polygon {clip-path: polygon(49% 100%, 100% 85%, 100% 0, 0 0, 0 85%);}
 
 /* Scroll to top button properties */
 .scrollToTop{
