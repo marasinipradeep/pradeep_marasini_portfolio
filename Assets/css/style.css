@@ -52,17 +52,24 @@ section.content {margin-left: 40px;margin-right: 40px;}
 .contactMe{float: right;}
 
 /* Vertial line on the browser */
-.vl {float: middle;border-left: thin solid black ;}
+.vl {float: middle;border-left: thin solid green ;}
 
 /* Title to all page */
-#pageTitle{color: red;text-align: left;font-family: 'Patua One', cursive,sans-serif;}
+#pageTitle{color: red;text-align: center;font-family: 'Patua One', cursive,sans-serif;font-size: 60px;}
+
+#pageTitleAboutMe{
+  text-align: left;color:fuchsia;
+  font-family: 'Patua One', cursive,sans-serif;font-size: 60px;
+
+}
 
 /* Start of about me page */
-#aboutme{background-color:lightgoldenrodyellow;}
+#aboutme{background-color:aqua;color:;min-height: 600px;}
 #resume{background-color:silver;}
 #works{background-color:moccasin;}
 #contact{background-color:lightcyan;}
-#aboutMeParagraph{float: left; }
+
+#aboutMeParagraph{float: left;font-size: 26px;}
 .addressDivAboutMe{float: right;}
 #aboutme,#resume,#works,#contact {margin-left: 40px;margin-right: 40px;}
 
