@@ -6,11 +6,12 @@
 body{align-items: center;text-align: center;background-image: url("../images/backgroundd.jpeg");background-color: #cccccc;background-position: center; /* Center the image */background-repeat: no-repeat; /* Do not repeat the image */background-size: cover; /* Resize the background image to cover the entire container */}
 
 /* Navbar margins */
-.navbar {margin-top: 20px; margin-left: 100px;margin-right: 100px}
+.navbar {margin-top: 20px; margin-left: 40px;margin-right: 40px;height: 100px;}
 
 .navbar-nav>li>a{
   color: white;
   margin-right: 40px;
+  font-size: 30px;
 }
 
 /* Profile pic */
@@ -57,7 +58,7 @@ section.content {margin-left: 40px;margin-right: 40px;}
 #pageTitle{color: red;text-align: left;font-family: 'Patua One', cursive,sans-serif;}
 
 /* Start of about me page */
-#aboutme{background-color:cyan;}
+#aboutme{background-color:lightgoldenrodyellow;}
 #resume{background-color:silver;}
 #works{background-color:moccasin;}
 #contact{background-color:lightcyan;}
