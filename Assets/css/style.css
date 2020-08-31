@@ -6,15 +6,15 @@
 body{align-items: center;text-align: center;background-image: url("../images/backgroundd.jpeg");background-color: #cccccc;background-position: center; /* Center the image */background-repeat: no-repeat; /* Do not repeat the image */background-size: cover; /* Resize the background image to cover the entire container */}
 
 /* Navbar margins */
-.navbar {margin-left: 100px;margin-right: 100px}
+.navbar {margin-top: 20px; margin-left: 100px;margin-right: 100px}
 
 .navbar-nav>li>a{
   color: white;
-  margin-right: 50px;
+  margin-right: 40px;
 }
 
 /* Profile pic */
-img{width: auto;height: 500px;background-image: url("../images/portfolioPic.jpg");background-size: cover; /* Resize the background image to cover the entire container */}
+.backgroundImg{width: auto;height: 600px;background-image: url("../images/portfolioPics.jpg");background-size: cover; /* Resize the background image to cover the entire container */}
 
 /* Using clip-polygon for profile pic */
 .clip-polygon {clip-path: polygon(49% 100%, 100% 85%, 100% 0, 0 0, 0 85%);}
@@ -36,10 +36,12 @@ img{width: auto;height: 500px;background-image: url("../images/portfolioPic.jpg"
   font-size: 18px;
  }
 
-
+h1.nameTitle{
+  font-size: 60px;
+}
 
 /* Start of Content */
-section.content {margin-left: 100px;margin-right: 100px;}
+section.content {margin-left: 40px;margin-right: 40px;}
 .card-title{font-family: 'Patua One', cursive,sans-serif;font-size: 2.5rem;}
 
 /* Start of links to social medias and resume */
@@ -55,9 +57,13 @@ section.content {margin-left: 100px;margin-right: 100px;}
 #pageTitle{color: red;text-align: left;font-family: 'Patua One', cursive,sans-serif;}
 
 /* Start of about me page */
-#aboutMeParagraph{float: left;}
+#aboutme{background-color:cyan;}
+#resume{background-color:silver;}
+#works{background-color:moccasin;}
+#contact{background-color:lightcyan;}
+#aboutMeParagraph{float: left; }
 .addressDivAboutMe{float: right;}
-#aboutme,#resume,#works,#contact {margin-left: 100px;margin-right: 100px;}
+#aboutme,#resume,#works,#contact {margin-left: 40px;margin-right: 40px;}
 
 /* table content disabled */
 td input#disabledInput{margin-left: auto;margin-right: auto;width: 30%;border-radius: 50px;}
@@ -75,6 +81,14 @@ p{text-align: left;}
   .contactMe,.downloadCV{float: none;}
   td input#disabledInput {width: 100%;}
   .navbar {margin-left: 20px;margin-right: 20px;}
+  .backgroundImg{
+    background-size: cover;
+    height: 200px;
+  }
+  h1.nameTitle{
+    font-size: 30px;
+  }
+  
 }
 /* End of page */
 

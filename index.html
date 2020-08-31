@@ -18,11 +18,12 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="0">
 
   <!-- Start of navbar -->
-  <nav class="navbar navbar-expand-md navbar-light bg-primary navbar-static-top ">
+  <nav class="navbar navbar-expand-md navbar-light  navbar-static-top ">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
       aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <ul class="navbar-nav m-10  mt-6 mt-lg-0 ">
         <li class="nav-item"><a href="#aboutme"><i class="fa fa-user p-2  "></i>ABOUT</a></li>
@@ -38,10 +39,10 @@
   <button class="scrollToTop">Top</button>
 
   <!-- start of content -->
-  <section class="content card text-center mb-4">
-    <img class="clip-polygon ">
+  <section class="content card text-center">
+    <img class="clip-polygon backgroundImg">
     <div class="card-body">
-      <h1 class="card-title">Pradeep Marasini</h1>
+      <h1 class="card-title nameTitle">Pradeep Marasini</h1>
       <h2 class="card-text" id="jobTitle">Full Stack Web Developer</h2>
       <div class="socialSites">
         <a href="https://www.linkedin.com/in/pradeep-marasini-34b322b4/" class="card-link" target="_blank"><i
@@ -64,13 +65,19 @@
   <!-- end of content -->
 
   <!-- start about me -->
-  <section class="card text-center mb-4" id="aboutme">
-    <h1 class="card-header bg-primary" id="pageTitle">About Me</h1>
+  <section class="card text-center" id="aboutme">
+    <h1 class="card-header" id="pageTitle">About Me</h1>
     <hr />
     <div class="container-fluid">
+      
       <article class="row card-body">
-        <p class="col-lg-7 card-text" id="aboutMeParagraph">Full Stack Developer with a background in electronics and
-          communication engineering utilising experience in
+
+        <img class="col-lg-3" src="./Assets/images/portfolioPic.jpg" alt="pradeep" style="height: 300px;width: auto; border-radius: 50%;">
+       
+
+        <p class="col-lg-4 card-text" id="aboutMeParagraph">
+         Full Stack Developer with a background in
+          electronics and communication engineering utilising experience in
           banking / payment application, embedded system and agile methodology. Awarded as “Best IT Supporter” and
           is a strong communicator to work effectively with end-users and the team. Motivated to implement innovative
           technology on real world problems making lives easier.Demonstrated excellent people-oriented service and
@@ -95,8 +102,8 @@
   </section>
 
   <!-- start resume -->
-  <section class=" card text-center mb-4" id="resume">
-    <h1 class="card-header bg-primary" id="pageTitle">Resume</h1>
+  <section class=" card text-center" id="resume">
+    <h1 class="card-header" id="pageTitle">Resume</h1>
     <!-- Start of article which has experience and education -->
     <article class=" card-body">
       <div class="container-fluid">
@@ -129,8 +136,10 @@
                       <div>
                     <h3 class="boxDesign">Junior Software Engineer</h3>
                     <h4 class="boxDesign">Drose Technologies Pvt Ltd</h4>
-                    <p>Worked with core functionality of the banking / payment system. Familiarised with embedded system and agile
-                      methodology.Demonstrated strong communication skills to work effectively with end-users and the team</p>
+                    <p>Worked with core functionality of the banking / payment system. Familiarised with embedded system
+                      and agile
+                      methodology.Demonstrated strong communication skills to work effectively with end-users and the
+                      team</p>
           </div>
           </td>
           </tr>
@@ -243,7 +252,7 @@
                     <div class="progress">
                       <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="90"
                         aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                       
+
                       </div>
                     </div>
                   </td>
@@ -253,7 +262,7 @@
                     <div class="progress">
                       <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80"
                         aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                      
+
                       </div>
                     </div>
                   </td>
@@ -274,9 +283,8 @@
 
   <!-- start works -->
   <section class="card text-center" id="works">
-    <h1 class="card-header bg-primary mt-4" id="pageTitle">Recent Works</h1>
+    <h1 class="card-header" id="pageTitle">Recent Works</h1>
     <hr />
-
 
     <!-- BIN OUT -->
     <div><a href="https://github.com/benorule/bin-out" class="card-text" target="_blank">
@@ -292,21 +300,24 @@
       </div>
       <div class="col-md-8 card-text" tabindex="0">
         <p>
-          Bin-out is an application which allows users to submit a request for their bins to be taken out for collection when they are unable to. Once a request is sent, a local employee can choose to accept and fulfil the
-          request. This application is useful for people who are unable to put their bins out, potentially due to being away from their property, having a physical condition or being elderly.
-          
+          Bin-out is an application which allows users to submit a request for their bins to be taken out for collection
+          when they are unable to. Once a request is sent, a local employee can choose to accept and fulfil the
+          request. This application is useful for people who are unable to put their bins out, potentially due to being
+          away from their property, having a physical condition or being elderly.
+
         </p>
         <h4>Github link: <a href="https://github.com/benorule/bin-out" target="_blank">Click here</a></h4>
         <h4>Live link: <a href="https://binout.herokuapp.com/" target="_blank">Click here</a></h4>
-        <h4>Demo link: <a href="https://www.youtube.com/watch?v=KxiwXnkHCB8&feature=youtu.be" target="_blank">Click here</a></h4><br/>
+        <h4>Demo link: <a href="https://www.youtube.com/watch?v=KxiwXnkHCB8&feature=youtu.be" target="_blank">Click
+            here</a></h4><br />
       </div>
     </div>
     <!-- END OF BIN OUT -->
 
     <!-- MUSIC APP -->
     <div><a href="https://github.com/marasinipradeep/music-app" class="card-text" target="_blank">
-      <h2>MUSIC-APP</h2>
-    </a></div>
+        <h2>MUSIC-APP</h2>
+      </a></div>
     <div class="row m-10 card-body border-bottom border-success rounded-bottom">
 
       <div class="col-md-8 card-text" tabindex="0">
@@ -319,22 +330,22 @@
         <h4>Live link: <a href="https://marasinipradeep.github.io/music-app/" target="_blank">Click here</a></h4>
       </div>
       <div class="col-md-4 card-text" tabindex="0">
-        
+
         <img class="card-img-top resetimages" src="./Assets/images/MusicQuizDemo.gif" alt="MUsic-App"
           style="border-radius: 50%; border: 5px solid #555">
 
       </div>
-     
+
     </div>
 
     <!-- BURGER LOGGR -->
 
     <div><a href="https://github.com/marasinipradeep/burger_logger" class="card-text" target="_blank">
-      <h2>BURGER LOGGER</h2>
-    </a></div>
+        <h2>BURGER LOGGER</h2>
+      </a></div>
     <div class="row m-10 card-body border-bottom border-success rounded-bottom">
       <div class="col-md-4 card-text" tabindex="0">
-        
+
         <img class="card-img-top resetimages" src="./Assets/images/burgerLogger.png" alt="your favourite burger"
           style="border-radius: 20%; border: 5px solid #555">
 
@@ -348,18 +359,19 @@
         </p>
         <h4>Github link: <a href="https://github.com/marasinipradeep/burger_logger" target="_blank">Click here</a></h4>
         <h4>Live link: <a href="https://burgerloggerusinghandlebars.herokuapp.com/" target="_blank">Click here</a></h4>
-        <h4>Demo link: <a href="https://www.youtube.com/watch?v=xbQRDVe8lrk&feature=youtu.be" target="_blank">Click here</a></h4><br/>
+        <h4>Demo link: <a href="https://www.youtube.com/watch?v=xbQRDVe8lrk&feature=youtu.be" target="_blank">Click
+            here</a></h4><br />
       </div>
     </div>
 
-    
+
 
     <!-- WEATHER DASHBOARD -->
     <div><a href="https://github.com/marasinipradeep/weather_dashboard" class="card-text" target="_blank">
-      <h2>WEATHER-DASHBOARD</h2>
-    </a></div>
+        <h2>WEATHER-DASHBOARD</h2>
+      </a></div>
     <div class="row m-10 card-body border-bottom border-success rounded-bottom">
-      
+
       <div class="col-md-8 card-text" tabindex="0">
         <br />
         <br />
@@ -367,23 +379,25 @@
           This is a weather application's. It is using third-party APIs to access weather data and weather dashboard
           functionality is build by dynamically updated HTML, CSS, JAVASCRIPT and JQUERY.
         </p>
-        <h4>Github link: <a href="https://github.com/marasinipradeep/weather_dashboard" target="_blank">Click here</a></h4>
-        <h4>Live link: <a href="https://marasinipradeep.github.io/weather_dashboard/" target="_blank">Click here</a></h4><br/>
+        <h4>Github link: <a href="https://github.com/marasinipradeep/weather_dashboard" target="_blank">Click here</a>
+        </h4>
+        <h4>Live link: <a href="https://marasinipradeep.github.io/weather_dashboard/" target="_blank">Click here</a>
+        </h4><br />
       </div>
 
       <div class="col-md-4 card-text" tabindex="0">
-        
+
         <img class="card-img-top resetimages" src="./Assets/images/Weather_Dashboard.gif" alt="find your weather"
           style="border-radius: 50%; border: 5px solid #555">
       </div>
-      
+
     </div>
 
 
     <!-- NOTE TAKER -->
     <div> <a href="https://github.com/marasinipradeep/note_taker" class="card-text" target="_blank">
-      <h2>NOTE TAKER</h2>
-    </a></div>
+        <h2>NOTE TAKER</h2>
+      </a></div>
     <div class="row m-10 card-body border-bottom border-success rounded-bottom">
       <div class="col-md-4 card-text" tabindex="0">
 
@@ -398,16 +412,17 @@
         </p>
         <h4>Github link: <a href="https://github.com/marasinipradeep/note_taker" target="_blank">Click here</a></h4>
         <h4>Live link: <a href="https://notetakerexpresspradeep.herokuapp.com/" target="_blank">Click here</a></h4>
-        <h4>Demo link: <a href="https://www.youtube.com/watch?v=qxuPqlNNJaI&feature=youtu.be" target="_blank">Click here</a></h4><br/>
+        <h4>Demo link: <a href="https://www.youtube.com/watch?v=qxuPqlNNJaI&feature=youtu.be" target="_blank">Click
+            here</a></h4><br />
       </div>
     </div>
 
     <!-- BRANCHLESS BANKING -->
     <div><a href="https://citytech.global/" class="card-text" target="_blank">
-      <h2>BLB (BRANCHLESS BANKING)</h2>
-    </a></div>
+        <h2>BLB (BRANCHLESS BANKING)</h2>
+      </a></div>
     <div class="row m-10 card-body">
-      
+
       <div class="col-md-8 card-text" tabindex="0">
         <br />
         <br />
@@ -432,18 +447,18 @@
 
 
   <!-- start contact -->
-  <section class=" card text-center mb-4" id="contact">
-    <h1 class="card-header bg-primary" id="pageTitle">Contacts</h1>
+  <section class="card text-center" id="contact">
+    <h1 class="card-header" id="pageTitle">Contacts</h1>
     <hr />
     <div class="card-body">
-      <div class="container-fluid mb-4">
+      <div class="container-fluid">
         <div class="row card-text">
           <h3 class="col-sm-6 boxDesign "><i class="fa fa-address-card-o" aria-hidden="true"></i> Address</h3>
           <address class="col-sm-6 ">Adelaide, South Australia, Australia</address>
         </div>
         <hr />
       </div>
-      <div class="container-fluid mb-4">
+      <div class="container-fluid">
 
         <div class="row card-text">
           <h3 class="col-sm-6 boxDesign"><i class="fa fa-phone" aria-hidden="true"></i> Contact</h3>
@@ -452,7 +467,7 @@
         <hr />
       </div>
 
-      <div class="container-fluid mb-4">
+      <div class="container-fluid">
         <div class="row card-text">
           <h3 class="col-sm-6 boxDesign"><i class="fa fa-envelope" aria-hidden="true"></i> Email</h3>
           <a href="mailto:marasinipradeep@gmail.com" class="col-sm-6">marasinipradeep@gmail.com</a>
