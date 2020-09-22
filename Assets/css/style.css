@@ -38,7 +38,7 @@ body{align-items: center;text-align: center;background-image: url("../images/bac
   cursor: pointer;
   color: white;
   padding: 15px;
-  background-color: thistle;
+  background-color: rgb(238, 23, 238);
   border-radius: 50px;
   font-size: 18px;
  }
@@ -70,31 +70,36 @@ section.content {margin-left: 40px;margin-right: 40px;}
 }
 
 /* Vertial line on the browser */
-.vl {float: middle;border-left: thin solid green ;}
+.vl {float: middle;border-left: thin solid #ffffff;}
 
 /* Title to all page */
-#pageTitle{color: red;text-align: center;font-family: 'Patua One', cursive,sans-serif;font-size: 60px;}
+#pageTitle{color: blue;text-align: center;font-family: 'Patua One', cursive,sans-serif;font-size: 60px;}
 
 #pageTitleAboutMe{
-  text-align: left;color:fuchsia;
+  text-align: left;color:rgb(10, 64, 243);
   font-family: 'Patua One', cursive,sans-serif;font-size: 60px;
 
 }
 
 /* Start of about me page */
-#aboutme{background-color:aqua;color:;min-height: 600px;}
-#resume{background-color:silver;}
-#works{background-color:moccasin;}
-#contact{background-color:lightcyan;}
+#aboutme{background-color:#aeb6a7;min-height:600px;margin-top: 20px;}
+#resume{background-color:rgb(168, 113, 113);margin-top: 20px;}
+#works{background-color:rgb(139, 224, 89);margin-top: 20px;}
+#contact{background-color:rgb(88, 160, 160);margin-top: 20px;margin-bottom: 20px;}
 
-#aboutMeParagraph{float: left;font-size: 26px;}
+#aboutMeParagraph{float: left;font-size: 30px;color:rgb(19, 19, 92);font-family:'Nanum';}
 .addressDivAboutMe{float: right;}
 #aboutme,#resume,#works,#contact {margin-left: 40px;margin-right: 40px;}
 
 /* table content disabled */
 td input#disabledInput{margin-left: auto;margin-right: auto;width: 30%;border-radius: 50px;}
-.boxDesign{color: red; text-align: center;}
-p{text-align: left;}
+.boxDesign,.ph{color: rgba(39, 33, 32, 0.945); text-align: center;font-size: 24px;}
+p{text-align: left;font-size: 24px;color:rgb(19, 19, 92)}
+.subtitleResume{font-size: 26px;color: blue;}
+
+.lastPageContacts{
+  color: #ffffff;
+}
 
 /* Resetting images to fit the screen */
 .resetimages{max-height: 30vh;max-width: 100%;}
