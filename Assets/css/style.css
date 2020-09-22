@@ -3,19 +3,24 @@
 *{padding: 0;margin: 0;box-sizing: border-box;font-size: 2rem;}
 
 /* Background image */
-body{align-items: center;text-align: center;background-image: url("../images/backgroundd.jpeg");background-color: #cccccc;background-position: center; /* Center the image */background-repeat: no-repeat; /* Do not repeat the image */background-size: cover; /* Resize the background image to cover the entire container */}
+body{align-items: center;text-align: center;background-image: url("../images/background.jpeg");background-color: #cccccc;background-position: center; /* Center the image */background-repeat: no-repeat; /* Do not repeat the image */background-size: cover;
+/* Resize the background image to cover the entire container */}
 
 /* Navbar margins */
-.navbar {margin-top: 20px; margin-left: 40px;margin-right: 40px;height: 100px;}
+.navbar {
+  background-color: red;
+  align-items: center;
+  margin-top: 20px; margin-left: 40px;margin-right: 40px;height: 100px;}
 
 .navbar-nav>li>a{
-  color: white;
+  align-items: center;
+  color: floralwhite;
   margin-right: 40px;
   font-size: 30px;
 }
 
 /* Profile pic */
-.backgroundImg{width: auto;height: 600px;background-image: url("../images/portfolioPics.jpeg");background-size: cover; /* Resize the background image to cover the entire container */}
+.backgroundImg{width: auto;height: 500px;background-image: url("../images/portfolioPics.jpeg");background-size: cover; /* Resize the background image to cover the entire container */}
 
 /* Using clip-polygon for profile pic */
 .clip-polygon {clip-path: polygon(49% 100%, 100% 85%, 100% 0, 0 0, 0 85%);}
@@ -88,7 +93,7 @@ p{text-align: left;}
   .vl{display: none;}
   .contactMe,.downloadCV{float: none;}
   td input#disabledInput {width: 100%;}
-  .navbar {margin-left: 20px;margin-right: 20px;}
+  .navbar {margin-left: 20px;margin-right: 20px;height:auto;}
   .backgroundImg{
     background-size: cover;
     height: 200px;
@@ -96,7 +101,7 @@ p{text-align: left;}
   h1.nameTitle{
     font-size: 30px;
   }
-  
+
 }
 /* End of page */
 
