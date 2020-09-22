@@ -8,15 +8,16 @@ body{align-items: center;text-align: center;background-image: url("../images/bac
 
 /* Navbar margins */
 .navbar {
-  background-color: red;
-  align-items: center;
-  margin-top: 20px; margin-left: 40px;margin-right: 40px;height: 100px;}
+  background-color: rgb(228, 33, 33);
+  margin-top: 10px; margin-left: 40px;margin-right: 40px;height: 65px;}
+
 
 .navbar-nav>li>a{
-  align-items: center;
-  color: floralwhite;
+  
+  color: rgb(255, 250, 240);
+  margin-left: 100px;
   margin-right: 40px;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 /* Profile pic */
@@ -44,17 +45,29 @@ body{align-items: center;text-align: center;background-image: url("../images/bac
 
 h1.nameTitle{
   font-size: 60px;
+  color: #e6f3f2;
+}
+
+.seo {
+  font-size: 48px;
+  width: 25%; /**/color: #d9dcd6;
 }
 
 /* Start of Content */
 section.content {margin-left: 40px;margin-right: 40px;}
-.card-title{font-family: 'Patua One', cursive,sans-serif;font-size: 2.5rem;}
+.card-title{font-family: 'Patua One', sans-serif;font-size: 2.5rem;}
 
 /* Start of links to social medias and resume */
-#jobTitle{font-family: 'Patua One', cursive,sans-serif;font-size: 18px;color: red;}
+#jobTitle{font-family: 'Trebuchet MS','Patua One',sans-serif;font-size: 28px;color: rgb(8, 8, 8);}
 .socialSites{font-size: 20px;}
-.downloadCV{float: left;}
-.contactMe{float: right;}
+.downloadCV{float: left;color: #d9dcd6;}
+.contactMe{float: right;color:  #d9dcd6;}
+
+.fa-facebook, .fa-github, .fa-linkedin,.fa-download,.fa-address-book{
+  padding: 20px;
+  font-size: 35px;
+  color:#30024bb9;
+}
 
 /* Vertial line on the browser */
 .vl {float: middle;border-left: thin solid green ;}
@@ -100,6 +113,10 @@ p{text-align: left;}
   }
   h1.nameTitle{
     font-size: 30px;
+  }
+
+  .seo,#jobTitle {
+    font-size: 22px;
   }
 
 }
