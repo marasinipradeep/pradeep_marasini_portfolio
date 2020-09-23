@@ -8,7 +8,7 @@ body{align-items: center;text-align: center;background-image: url("../images/bac
 
 /* Navbar margins */
 .navbar {
-  background-color: rgb(228, 33, 33);
+  background-color: rgb(219, 70, 70);
   margin-top: 10px; margin-left: 40px;margin-right: 40px;height: 65px;}
 
 
@@ -82,10 +82,10 @@ section.content {margin-left: 40px;margin-right: 40px;}
 }
 
 /* Start of about me page */
-#aboutme{background-color:rgb(53, 189, 60);min-height:600px;margin-top: 20px;}
-#resume{background-color:rgb(53, 189, 60);margin-top: 20px;}
-#works{background-color:rgb(53, 189, 60);margin-top: 20px;}
-#contact{background-color:rgb(53, 189, 60);margin-top: 20px;margin-bottom: 20px;}
+#aboutme{background-color: rgba(57, 206, 65, 0.52);min-height:600px;margin-top: 20px;}
+#resume{background-color:rgba(57, 206, 65, 0.52);margin-top: 20px;}
+#works{background-color:rgba(57, 206, 65, 0.52);margin-top: 20px;}
+#contact{background-color:rgba(140, 184, 39, 0.856);margin-top: 20px;margin-bottom: 20px;}
 
 #aboutMeParagraph{float: left;font-size: 30px;color:rgb(19, 19, 92);font-family:'Nanum';}
 .addressDivAboutMe{float: right;}
